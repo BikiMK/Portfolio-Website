@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+Guiu<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -66,8 +66,9 @@
         <main class="l-main">
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Biki</span><br>Website Developer</h1>
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Biki</span><br><span id="element"></span></h1>
                     
                     <a href="https://drive.google.com/file/d/1HjfQikSjWp3M8zXmbny-DbhmX6JnUnn7/view?usp=sharing" class="button">Download CV</a>
                 </div>
@@ -209,7 +210,7 @@
                 <h2 class="section-title">Contact</h2>
                 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
+                    <form action="https://formsubmit.co/saph.6869@gmail.com" method="POST" class="contact__form">
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
@@ -218,7 +219,7 @@
                 </div>
             </section>
         </main>
-        
+            
         <!--===== FOOTER =====-->
         
         <!-- <footer class="footer">
@@ -238,6 +239,15 @@
         
         <!--===== MAIN JS =====-->
         <script src="script.js"></script>
+        <script src="script.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer','Video Editor','Photoshoper','Guitarist'],
+              typeSpeed: 125,
+              backSpeed: 40,
+              loop : true,
+            });
+          </script>
     </body>
     </html>
     
